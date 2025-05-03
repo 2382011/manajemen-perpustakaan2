@@ -71,6 +71,7 @@ Jika menggunakan Drizzle, sesuaikan dengan setup migrasi Drizzle.
 ### 4. ▶️ Run the Development Server
 
 ```bash
+npm install
 npm run dev
 ```
 
