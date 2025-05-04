@@ -1,4 +1,7 @@
-const uploadToImageKit = async (file: File) => {
+// di file client component
+'use client';
+
+export const uploadToImageKit = async (file: File) => {
   const formData = new FormData();
   formData.append("file", file);
   formData.append("fileName", "user-id");
